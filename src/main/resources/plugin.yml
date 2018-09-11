@@ -1,0 +1,16 @@
+name: Skinner
+main: it.tigierrei.skinner.Skinner
+version: 2.0
+depend: [LibsDisguises,MythicMobs]
+softdepend: [Citizens]
+commands:
+  sk:
+    description: Base command for Skinner
+    usage: Use "/sk reload" to update skins config
+    permission: Skinner.admin
+    permission-message: You don't have permission
+  skinner:
+    description: Base command for Skinner
+    usage: Use "/skinner reload" to update skins config
+    permission: Skinner.admin
+    permission-message: You don't have permission
